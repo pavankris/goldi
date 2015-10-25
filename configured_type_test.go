@@ -5,7 +5,7 @@ import (
 	. "github.com/onsi/gomega"
 
 	"fmt"
-	"github.com/fgrosse/goldi"
+	"gopkg.in/fgrosse/goldi.v1"
 )
 
 func ExampleNewConfiguredType() {

@@ -3,7 +3,7 @@ package validation
 import (
 	"fmt"
 
-	"github.com/fgrosse/goldi"
+	"gopkg.in/fgrosse/goldi.v1"
 	"github.com/fgrosse/gotility"
 )
 

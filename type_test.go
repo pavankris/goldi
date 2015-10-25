@@ -5,7 +5,7 @@ import (
 	. "github.com/onsi/gomega"
 
 	"fmt"
-	"github.com/fgrosse/goldi"
+	"gopkg.in/fgrosse/goldi.v1"
 )
 
 func ExampleNewType() {
@@ -172,7 +172,7 @@ var _ = Describe("type", func() {
 						typeDef := goldi.NewType(NewTypeForServiceInjectionWithArgs, "@foo", "arg1", "arg2", true)
 
 						_, err := typeDef.Generate(resolver)
-						Expect(err).To(MatchError(`the referenced type "@foo" (type *goldi_test.Foo) can not be passed as argument 1 to the function signature goldi_test.NewTypeForServiceInjectionWithArgs(*goldi_test.MockType, string, string, bool)`))
+						Expect(err).To(MatchError(`the referenced type "@foo" (type *goldi_test.Foo) can not be passed as argument 1 to the function signature goldi.v1_test.NewTypeForServiceInjectionWithArgs(*goldi_test.MockType, string, string, bool)`))
 					})
 				})
 			})

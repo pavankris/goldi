@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/fgrosse/goldi"
+	"gopkg.in/fgrosse/goldi.v1"
 )
 
 var _ = Describe("TypeID", func() {

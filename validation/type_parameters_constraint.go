@@ -3,7 +3,7 @@ package validation
 import (
 	"fmt"
 
-	"github.com/fgrosse/goldi"
+	"gopkg.in/fgrosse/goldi.v1"
 )
 
 // The TypeParametersConstraint is used in a ContainerValidator to check if all used parameters do exist.

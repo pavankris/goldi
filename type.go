@@ -198,6 +198,7 @@ func (t *typeFactory) invalidReferencedTypeErr(typeID string, typeInstance inter
 	factoryName := runtime.FuncForPC(t.factory.Pointer()).Name()
 	factoryNameParts := strings.Split(factoryName, "/")
 	factoryName = factoryNameParts[len(factoryNameParts)-1]
+	factoryName = strings.Replace(factoryName, "%2e", ".", -1) // TODO find out if its actually a go bug that Func.Name() return an url encoded name
 
 	n := t.factoryType.NumIn()
 	factoryArguments := make([]string, n)

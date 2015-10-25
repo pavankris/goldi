@@ -4,7 +4,7 @@ package validation
 import (
 	"fmt"
 
-	"github.com/fgrosse/goldi"
+	"gopkg.in/fgrosse/goldi.v1"
 )
 
 // A Constraint represents a certain criteria that a container needs to fulfill in order to be valid.
