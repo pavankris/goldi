@@ -4,7 +4,7 @@ package validation
 import (
 	"fmt"
 
-	"github.com/fgrosse/goldi"
+	"github.com/pavankris/goldi"
 )
 
 // A Constraint represents a certain criteria that a container needs to fulfill in order to be valid.

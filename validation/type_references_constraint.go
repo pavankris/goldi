@@ -3,8 +3,8 @@ package validation
 import (
 	"fmt"
 
-	"github.com/fgrosse/goldi"
 	"github.com/fgrosse/gotility"
+	"github.com/pavankris/goldi"
 )
 
 // The TypeReferencesConstraint is used in a ContainerValidator to check if all referenced types in the container have been defined.

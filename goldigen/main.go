@@ -17,7 +17,7 @@ import (
 const Version = "0.9.9"
 
 var (
-	app = kingpin.New("goldigen", "The goldi dependency injection container generator.\n\nSee https://github.com/fgrosse/goldi for further information.")
+	app = kingpin.New("goldigen", "The goldi dependency injection container generator.\n\nSee https://github.com/pavankris/goldi for further information.")
 
 	inputFile     = app.Flag("in", "The input yaml file to generate type definitions from").Required().File()
 	outputPath    = app.Flag("out", "The output file to save the generated go code").String()
