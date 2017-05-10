@@ -140,14 +140,14 @@ var _ = Describe("TypesConfiguration", func() {
 				c := main.TypesConfiguration{
 					Types: map[string]main.TypeDefinition{
 						"some_goldi_type": {
-							Package: "github.com/fgrosse/goldi",
+							Package: "github.com/pavankris/goldi",
 						},
 					},
 				}
 
-				packages := c.Packages("github.com/fgrosse/goldi")
+				packages := c.Packages("github.com/pavankris/goldi")
 				Expect(packages).To(HaveLen(1))
-				Expect(packages).To(ContainElement("github.com/fgrosse/goldi"))
+				Expect(packages).To(ContainElement("github.com/pavankris/goldi"))
 			})
 		})
 	})

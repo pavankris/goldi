@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/fgrosse/goldi"
-	"github.com/fgrosse/goldi/validation"
+	"github.com/pavankris/goldi"
+	"github.com/pavankris/goldi/validation"
 )
 
 func Example() {

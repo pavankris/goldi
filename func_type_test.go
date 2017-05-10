@@ -4,8 +4,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/fgrosse/goldi"
 	"net/http"
+
+	"github.com/pavankris/goldi"
 )
 
 func ExampleNewFuncType() {

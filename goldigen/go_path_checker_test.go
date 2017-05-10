@@ -5,8 +5,6 @@ import (
 	. "github.com/onsi/gomega"
 
 	"os"
-
-	"github.com/fgrosse/goldi/goldigen"
 )
 
 var _ = Describe("GoPathChecker", func() {
@@ -62,7 +60,7 @@ var _ = Describe("GoPathChecker", func() {
 
 			It("should return the correct package name when navigating up the file tree", func() {
 				checker := main.NewGoPathChecker(verbose)
-				Expect(checker.PackageName("../some_file.go")).To(Equal("github.com/fgrosse/goldi"))
+				Expect(checker.PackageName("../some_file.go")).To(Equal("github.com/pavankris/goldi"))
 			})
 
 			It("should return the correct package name when navigating up and down the file tree", func() {

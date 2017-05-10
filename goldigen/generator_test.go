@@ -8,8 +8,6 @@ import (
 	"bytes"
 	"fmt"
 	"strings"
-
-	"github.com/fgrosse/goldi/goldigen"
 )
 
 var _ = Describe("Generator", func() {
@@ -93,7 +91,7 @@ var _ = Describe("Generator", func() {
 		})
 
 		It("should import the goldi package", func() {
-			Expect(output).To(ImportPackage("github.com/fgrosse/goldi"))
+			Expect(output).To(ImportPackage("github.com/pavankris/goldi"))
 		})
 
 		It("should import the type packages", func() {

@@ -5,7 +5,8 @@ import (
 	. "github.com/onsi/gomega"
 
 	"fmt"
-	"github.com/fgrosse/goldi"
+
+	"github.com/pavankris/goldi"
 )
 
 func ExampleNewFuncReferenceType() {

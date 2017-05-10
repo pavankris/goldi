@@ -5,7 +5,8 @@ import (
 	. "github.com/onsi/gomega"
 
 	"fmt"
-	"github.com/fgrosse/goldi"
+
+	"github.com/pavankris/goldi"
 )
 
 // Let's assume that we have a LoggerProvider type that produces configured instances

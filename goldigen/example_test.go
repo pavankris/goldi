@@ -40,7 +40,7 @@ func Example() {
 	// package lib
 	//
 	// import (
-	// 	"github.com/fgrosse/goldi"
+	// 	"github.com/pavankris/goldi"
 	// 	"github.com/fgrosse/goldi-example/lib/mytime"
 	// 	"github.com/fgrosse/servo/example"
 	// )
